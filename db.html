@@ -1,0 +1,55 @@
+<html>
+<head>
+</head>
+<body>
+<h2>Masukan Data Covid-19</h2>
+<form action="proses.php" method="post">
+<table>
+    <tr>
+    <td>Nama Wilayah</td>
+    <td>
+        <select name="wilayah">
+            <option value="DKI Jakarta" name="jakarta">DKI Jakarta</option>
+            <option value="Jawa Barat" name="jabar">Jawa Barat</option>
+            <option value="Banten" name="banten">Banten</option>
+            <option value="Jawa Tengah" name="jateng">Jawa Tengah</option>
+        </select>
+    </td>
+    </tr>
+ 
+    <tr>
+    <td>Jumlah Positif</td>
+    <td><input type="text" name="jumlah_positif" placeholder="jumlah positif"></td>
+    </tr>
+
+    <tr>
+    <td>Jumlah Dirawat</td>
+    <td><input type="text" name="jumlah_dirawat" placeholder="jumlah dirawat"></td>
+    </tr>
+
+    <tr>
+    <td>Jumlah Sembuh</td>
+    <td><input type="text" name="jumlah_sembuh" placeholder="jumlah sembuh"></td>
+    </tr>
+
+    <tr>
+    <td>Jumlah Meninggal</td>
+    <td><input type="text" name="jumlah_meninggal" placeholder="jumlah meninggal"></td>
+    </tr>
+
+    <tr>
+    <td>Nama Operator</td>
+    <td><input type="text" name="nama" placeholder="masukkan nama"></td>
+    </tr>
+
+    <tr>
+    <td>NIM Mahasiswa</td>
+    <td><input type="text" name="nim" placeholder="masukkan nim"></td>
+    </tr>
+
+ <td></td><td><button type="submit">Submit</button></td>
+ </tr>
+</table>
+</body>
+
+</html>
